@@ -2,11 +2,20 @@ menu{
     display: inline-flex;
     list-style: none;
     position: relative;
-    margin-left: 70vw;
+    margin-left: 50vw;
 }
 
 menu li{
     padding-right: 2vw;
+}
+
+menu li button{
+    width: 6vw;
+}
+
+#search{
+    width: 15vw;
+    text-align: center;
 }
 
 h1{
@@ -17,6 +26,11 @@ body{
     margin: 0;
     background-color: #4D4D4D;
     color: white;
+}
+
+.offscreen{
+    overflow: hidden;
+    display: none;
 }
 
 #main_title{
