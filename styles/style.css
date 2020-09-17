@@ -1,0 +1,41 @@
+menu{
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    margin-left: 70vw;
+}
+
+menu li{
+    padding-right: 2vw;
+}
+
+h1{
+    color: white;
+}
+
+body{
+    margin: 0;
+    background-color: #4D4D4D;
+    color: white;
+}
+
+.main_title{
+    position: absolute;
+    top: 13vh;
+    left: 7vw;
+}
+
+.hero_img{
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main_section{
+    background-color: #4D4D4D;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}

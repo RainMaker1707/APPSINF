@@ -2,21 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css"/>
     <title>Commune d'Ottignies Louvain-la-Neuve</title>
 </head>
 <body>
-    <section class="hero">
-        <h1>Ottignies - Louvain-la-Neuve</h1>
-        <img src="images/lln_esplanade.jpg" alt="Commercial center of louvain la neuve"/>
-        <img src="images/lln_place_sciences.jpg" alt="Science place of louvain la neuve"/>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">LogIn</a></li>
-            <li><a href="#">SignIn</a></li>
-            <li><a href="#">Language</a></li>
-        </ul>
-    </section>
-    <section class="intro">
+    <header>
+        <section class="hero">
+            <img class="hero_img" src="images/lln_gd_place.jp2" alt="Commercial center of louvain la neuve"/>
+            <h1 class="main_title">Ottignies - Louvain-la-Neuve</h1>
+        </section>
+    </header>
+    <section class="main_section">
+        <menu>
+            <li>
+                <button type="button" onclick="#">Home</button>
+            </li>
+            <li>
+                <button type="button" onclick="#">LogIn</button>
+            </li>
+            <li>
+                <button type="button" onclick="#">SignIn</button>
+            </li>
+        </menu>
+
+        <section class="intro">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -34,7 +43,7 @@
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+        </section>
     </section>
 </body>
 </html>
