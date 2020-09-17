@@ -19,7 +19,7 @@ body{
     color: white;
 }
 
-.main_title{
+#main_title{
     position: absolute;
     top: 13vh;
     left: 7vw;
@@ -34,7 +34,7 @@ body{
     left: 0;
     right: 0;
 }
-.main_section{
+#main_section{
     background-color: #4D4D4D;
     margin-left: 5vw;
     margin-right: 5vw;
