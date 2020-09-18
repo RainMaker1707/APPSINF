@@ -2,7 +2,12 @@ menu{
     display: inline-flex;
     list-style: none;
     position: relative;
-    margin-left: 50vw;
+    margin: 0;
+    background-color: #7f7f7f;
+    padding-left: 50vw;
+    width: 50vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 menu li{
@@ -16,16 +21,12 @@ menu li button{
 #search{
     width: 15vw;
     text-align: center;
+    border-radius: 7px;
 }
 
 h1{
     color: white;
-}
-
-body{
-    margin: 0;
-    background-color: #4D4D4D;
-    color: white;
+    margin-left: 7vw;
 }
 
 .offscreen{
@@ -35,8 +36,7 @@ body{
 
 #main_title{
     position: absolute;
-    top: 13vh;
-    left: 7vw;
+    top: 3vh;
 }
 
 .hero_img{
@@ -48,8 +48,33 @@ body{
     left: 0;
     right: 0;
 }
+
 #main_section{
     background-color: #4D4D4D;
+}
+
+input{
+    text-align: center;
+}
+
+form{
+    margin-left: 10vw;
+}
+
+form label{
+    display: none;
+    height: 0;
+    width: 0;
+    font-size: 0;
+}
+
+body{
+    background-color: #4D4D4D;
+    margin: 0;
+}
+
+p {
+    color: white;
     margin-left: 5vw;
     margin-right: 5vw;
 }
