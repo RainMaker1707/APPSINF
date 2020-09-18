@@ -78,3 +78,52 @@ p {
     margin-left: 5vw;
     margin-right: 5vw;
 }
+
+/*Centre les éléments inline dans les éléments possédant un attribut class="centre"*/
+/* ADD BY GG*/
+.centre{
+    text-align: center;
+}
+
+#rectangle{
+    width:750px;
+    height:500px;
+    background-color: lightgrey;
+    border: 25px solid grey;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textarea{
+    width:500px;
+    height:150px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#textarea2{
+    width:500px;
+    height:150px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#button{
+    width:150px;
+    height:50px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
