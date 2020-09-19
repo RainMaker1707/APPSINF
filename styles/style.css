@@ -82,16 +82,21 @@ tr td {
     color: white;
     text-align: center;
     align-items: center;
-    border: 1px solid #c8c8c8;
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
-tr:nth-child(even){
+
+table tbody tr:nth-child(even){
     background-color: #888888;
 }
-tr:nth-child(odd){
+table tbody tr:nth-child(odd){
     background-color: #617172;
 }
-tr:first-child{
-    background-color: #498e49;
+
+table thead tr td{
+    border: none;
+}
+
+table tbody tr td{
+    border: 1px solid #c8c8c8;
 }
