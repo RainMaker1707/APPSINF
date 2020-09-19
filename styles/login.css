@@ -1,0 +1,51 @@
+h1{
+    color: white;
+    margin-left: 46vw;
+}
+
+body{
+    background-color: #4D4D4D;
+    margin: 0;
+    padding-top: 10vh;
+}
+
+/* form log in sign in */
+form{
+    margin-left: 35vw;
+}
+
+form label{
+    display: none;
+    height: 0;
+    width: 0;
+    font-size: 0;
+}
+
+input{
+    text-align: center;
+    padding: 14px 20px;
+}
+
+input[type=text], select, input[type=email], input[type=password] {
+    width: 40%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+    background-color: #45a049;
+}

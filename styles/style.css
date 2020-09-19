@@ -1,11 +1,12 @@
+/* main menu style */
 menu{
     display: inline-flex;
     list-style: none;
     position: relative;
     margin: 0;
     background-color: #7f7f7f;
-    padding-left: 50vw;
-    width: 50vw;
+    padding-left: 60vw;
+    width: 40vw;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -14,19 +15,14 @@ menu li{
     padding-right: 2vw;
 }
 
-menu li button{
-    width: 6vw;
+#repButton{
+    color: red;
 }
 
 #search{
     width: 15vw;
     text-align: center;
     border-radius: 7px;
-}
-
-h1{
-    color: white;
-    margin-left: 7vw;
 }
 
 .offscreen{
@@ -37,93 +33,38 @@ h1{
 #main_title{
     position: absolute;
     top: 3vh;
+    left: 7vw;
+    color: white;
 }
 
 .hero_img{
     z-index: -1;
     width: 100%;
-    height: auto;
     position: relative;
     top: 0;
     left: 0;
     right: 0;
 }
 
-#main_section{
-    background-color: #4D4D4D;
+.hero{
+    margin-top: -10vh;
 }
 
-input{
-    text-align: center;
-}
-
-form{
-    margin-left: 10vw;
-}
-
-form label{
-    display: none;
-    height: 0;
-    width: 0;
-    font-size: 0;
-}
-
+/* body style */
 body{
     background-color: #4D4D4D;
     margin: 0;
+    padding-top: 10vh;
 }
 
+/* paragraph style */
 p {
     color: white;
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
-/*Centre les éléments inline dans les éléments possédant un attribut class="centre"*/
-/* ADD BY GG*/
-.centre{
+/* style inputs */
+input{
     text-align: center;
 }
-
-#rectangle{
-    width:750px;
-    height:500px;
-    background-color: lightgrey;
-    border: 25px solid grey;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#textarea{
-    width:500px;
-    height:150px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#textarea2{
-    width:500px;
-    height:150px;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#button{
-    width:150px;
-    height:50px;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-
