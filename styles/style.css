@@ -4,7 +4,7 @@ menu{
     list-style: none;
     position: relative;
     margin: 0;
-    background-color: #7f7f7f;
+    background-color: #4a7082;
     padding-left: 60vw;
     width: 40vw;
     padding-top: 5px;
@@ -67,4 +67,31 @@ p {
 /* style inputs */
 input{
     text-align: center;
+}
+
+/* table style */
+table{
+    width: 80vw;
+    margin-top: 5vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    border-collapse: collapse;
+}
+
+tr td {
+    color: white;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #c8c8c8;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+tr:nth-child(even){
+    background-color: #888888;
+}
+tr:nth-child(odd){
+    background-color: #617172;
+}
+tr:first-child{
+    background-color: #498e49;
 }
