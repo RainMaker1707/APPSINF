@@ -13,9 +13,6 @@
 
     <menu>
         <li>
-            <button type="button" onclick="location.href='#';">Home</button>
-        </li>
-        <li>
             <button type="button" onclick="location.href='pages/logIn.html';">LogIn</button>
         </li>
         <li>
@@ -24,10 +21,19 @@
         <li>
             <label for="search" class="form-label offscreen">Search: </label>
             <input type="text" id="search" name="search" size="100" placeholder="Search"/>
-            <button type="button" id="searchButton" onclick="location.href='#';">Search</button>
+        </li>
+        <li>
+            <input type="image" id="searchButton" src="images/search.png" alt="Search Button"/>
         </li>
     </menu>
-
+    <p id="date"></p>
+    <script>
+        const months = ["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin",
+            "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"];
+        let today = new Date();
+        let date = today.getDate() + " " + months[today.getMonth()] + " " + today.getFullYear();
+        document.getElementById("date").innerHTML = "Date : " + date;
+    </script>
     <section class="reports">
         <!-- add component "reportFile" here with js scripts -->
         <table class="reports">
@@ -41,40 +47,40 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
                 </tr>
                 <tr>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
                 </tr>
                 <tr>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
                 </tr>
                 <tr>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
                 </tr>
                 <tr>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
                 </tr>
                 <tr>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
-                    <td>exemple</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
+                    <td>example</td>
                 </tr>
             </tbody>
         </table>

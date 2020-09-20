@@ -5,24 +5,28 @@ menu{
     position: relative;
     margin: 0;
     background-color: #4a7082;
-    padding-left: 60vw;
-    width: 40vw;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 63vw;
+    width: 37vw;
 }
 
 menu li{
     padding-right: 2vw;
 }
 
-#searchButton{
-    border: none;
-    border-radius: 3px;
+#date{
+    font-size: 15pt;
+    width: 90vw;
+    text-align: end;
+    margin: 5vh 5vw 0 5vw;
 }
 
-#searchButton:hover {
-  background-color: gray;
-  color: white;
+#searchButton{
+    width: 20px;
+    height: 20px;
+    margin-top: .3vh;
+    margin-left: -3.8vw;
 }
 
 #repButton{
