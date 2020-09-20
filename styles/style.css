@@ -15,6 +15,16 @@ menu li{
     padding-right: 2vw;
 }
 
+#searchButton{
+    border: none;
+    border-radius: 3px;
+}
+
+#searchButton:hover {
+  background-color: gray;
+  color: white;
+}
+
 #repButton{
     color: red;
 }
