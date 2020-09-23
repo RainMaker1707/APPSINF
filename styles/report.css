@@ -36,7 +36,7 @@ body{
     transform: translate(-50%, -50%);
 }
 /* text area report style */
-#textarea{
+#localization{
     width:500px;
     height:150px;
     position: absolute;
@@ -46,7 +46,7 @@ body{
     text-align: center;
 }
 
-#textarea2{
+#accident{
     width:500px;
     height:150px;
     position: absolute;
@@ -54,4 +54,35 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+input[type=text], select, input[type=email], input[type=password] {
+    width: 40%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+}
+
+/* Style the submit button */
+input[type=button] {
+    background-color: #d61515;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:150px;
+    height:50px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=button]:hover {
+    background-color: #700c0c;
 }
