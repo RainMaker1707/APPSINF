@@ -48,6 +48,11 @@ menu li{
 
 }
 
+#date{
+    padding-left: 5vw;
+    color: white;
+}
+
 .offscreen{
     display: none;
 }

@@ -1,17 +1,20 @@
-function keepMenuOnTop(){
-    let scrollY;
-    if (document.all)
-    {
-        if (!document.documentElement.scrollTop)
-            scrollY = document.body.scrollTop;
-        else
-            scrollY = document.documentElement.scrollTop;
+function elementPosition(a) {
+    let b = a.getBoundingClientRect();
+    return {
+        clientX: a.offsetLeft,
+        clientY: a.offsetTop,
+        viewportX: (b.x || b.left),
+        viewportY: (b.y || b.top)
     }
-    else
-        scrollY = window.pageYOffset;
-    console.log(scrollY);
-    if(scrollY > 350)
-        document.getElementById("menu").className = "row order-2 navbar navbar-dark bg-dark navbar-expand-lg menu2";
-    else
+}
+
+function keepMenuOnTop(){
+    let posMenu = elementPosition(document.getElementById("menu"));
+    if  (document.getElementById("date-container").getBoundingClientRect().y >
+            document.getElementById("menu").getBoundingClientRect().height) {
         document.getElementById("menu").className = "row order-2 navbar navbar-dark bg-dark navbar-expand-lg menu";
+    }
+    else if (posMenu.viewportY < 0 || posMenu.viewportY === 0){
+        document.getElementById("menu").className = "row order-2 navbar navbar-dark bg-dark navbar-expand-lg menu2";
+    }
 }
