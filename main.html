@@ -8,17 +8,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css"/>
+    <script type="text/javascript" src="scripts/navOnTop.js"></script>
     <title>Commune d'Ottignies Louvain-la-Neuve</title>
 </head>
 
 <body>
 
-    <section class="header container-fluid">
+    <section class="header container-fluid" id="header">
         <section class="row order-1">
-            <img class="hero_img" src="images/lln_gd_place.png" alt="">
+            <img class="hero_img" id="hero_img" src="images/lln_gd_place.png" alt="">
         </section>
     </section>
-    <section class="main container-fluid">
+    <section class="main container-fluid" id="main">
+        <!-- <script> window.onresize = navBarPos;</script> -->
         <section class="row order-2 navbar navbar-dark bg-dark navbar-expand-lg menu" id="menu">
             <h1 class="col-7 main_title">Ottignies - Louvain-la-Neuve</h1>
 
@@ -34,12 +36,11 @@
                     <input type="text" id="search" name="search" size="100" placeholder="Search"/>
                 </li>
             </menu>
-            <script type="text/javascript" src="scripts/navOnTop.js"></script>
             <script>window.onscroll = keepMenuOnTop; </script>
         </section>
 
         <section class="row order-3 date" id="date-container">
-            <p id="date" class="date"></p>
+            <p id="date" class="datepad"></p>
             <script>
                 const months = ["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin",
                     "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"];

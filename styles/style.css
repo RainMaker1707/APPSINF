@@ -13,6 +13,14 @@ body{
     width: 100vw;
 }
 
+.datepad{
+    margin-top: 2vh;
+}
+
+.datepad2{
+    margin-top: 12vh;
+}
+
 menu{
     display: inline-flex;
     list-style: none;
