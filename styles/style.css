@@ -49,6 +49,7 @@ menu li{
 }
 
 #date{
+    padding-top: 2vh;
     padding-left: 5vw;
     color: white;
 }
