@@ -29,13 +29,26 @@ body{
     z-index: -1;
     width:750px;
     height:500px;
-    background-color: lightgrey;
-    border: 25px solid grey;
+    background-color: #244478;
     position: fixed;
+    border-radius: 15px;
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
 }
+
+#rectangle2{
+    z-index: -1;
+    width:800px;
+    height:550px;
+    background-color: #ffffff;
+    position: fixed;
+    border-radius: 15px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
 /* text area report style */
 #localization{
     width:500px;
@@ -86,4 +99,18 @@ input[type=button] {
 /* Add a background color to the submit button on mouse-over */
 input[type=button]:hover {
     background-color: #700c0c;
+}
+
+
+/*Fonts*/
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
 }
