@@ -1,117 +1,78 @@
-/* main menu style */
+
+
+body{
+    background-color: #4D4D4D;
+}
+
+.menu{
+    position: relative;
+}
+
+.menu2{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
 menu{
     display: inline-flex;
     list-style: none;
-    position: relative;
-    margin: 0;
-    background-color: #4a7082;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 63vw;
-    width: 37vw;
 }
 
 menu li{
-    padding-right: 2vw;
+    padding-left: 1vw;
 }
 
-#date{
-    font-size: 15pt;
-    width: 90vw;
-    text-align: end;
-    margin: 5vh 5vw 0 5vw;
+.main{
+    background-color: #4D4D4D;
+    position: absolute;
+    top: 70vh;
 }
 
-#searchButton{
-    width: 20px;
-    height: 20px;
-    margin-top: .3vh;
-    margin-left: -3.8vw;
-}
-
-#repButton{
-    color: red;
+.main_title{
+    color: green;
 }
 
 #search{
-    width: 15vw;
     text-align: center;
-    border-radius: 7px;
-}
-
-.offscreen{
-    overflow: hidden;
-    display: none;
-}
-
-#main_title{
-    position: absolute;
-    top: 2vh;
-    left: 5vw;
-    color: white;
-    font-size: 20pt;
+    width: 15vw;
 }
 
 .hero_img{
-    z-index: -1;
-    width: 100%;
-    position: relative;
+    width: 100vw;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: -1;
+
 }
 
-.hero{
-    margin-top: -10vh;
+.offscreen{
+    display: none;
 }
 
-/* body style */
-body{
-    background-color: #4D4D4D;
-    margin: 0;
-    padding-top: 10vh;
-}
-
-/* paragraph style */
-p {
-    color: white;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-/* style inputs */
-input{
-    text-align: center;
-}
-
-/* table style */
-table{
+table {
     width: 80vw;
-    margin-top: 5vh;
-    margin-right: 10vw;
+    margin-top: 10vh;
     margin-left: 10vw;
+    margin-right: 10vw;
     border-collapse: collapse;
 }
 
-tr td {
-    color: white;
+tr td{
+    color: black;
     text-align: center;
-    align-items: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #4D4D4D;
 }
 
 table tbody tr:nth-child(even){
-    background-color: #888888;
-}
-table tbody tr:nth-child(odd){
-    background-color: #617172;
+    background-color: #4CAF50;
 }
 
-table thead tr td{
+thead{
     border: none;
-}
-
-table tbody tr td{
-    border: 1px solid #c8c8c8;
 }
