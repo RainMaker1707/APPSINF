@@ -79,7 +79,7 @@ input{
     height:50px;
     position: absolute;
     top: 42vh;
-    left: 40vw;
+    left: 38vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -89,7 +89,7 @@ input{
     height:50px;
     position: absolute;
     top: 52vh;
-    left: 40vw;
+    left: 38vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -99,7 +99,7 @@ input{
     height:50px;
     position: absolute;
     top: 32vh;
-    left: 60vw;
+    left: 62vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -109,7 +109,7 @@ input{
     height:50px;
     position: absolute;
     top: 42vh;
-    left: 60vw;
+    left: 62vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -119,7 +119,7 @@ input{
     height:50px;
     position: absolute;
     top: 52vh;
-    left: 60vw;
+    left: 62vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -129,7 +129,7 @@ input{
     height:50px;
     position: absolute;
     top: 62vh;
-    left: 60vw;
+    left: 62vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -175,8 +175,8 @@ input[type=LogIn] {
     width:150px;
     height:25px;
     position: absolute;
-    top: 70vh;
-    left: 40vw;
+    top: 75vh;
+    left: 38vw;
     transform: translate(-50%, -50%);
     text-align: center;
 
@@ -197,8 +197,8 @@ input[type=SignIn] {
     width:150px;
     height:25px;
     position: absolute;
-    top: 70vh;
-    left: 60vw;
+    top: 75vh;
+    left: 62vw;
     transform: translate(-50%, -50%);
     text-align: center;
 
