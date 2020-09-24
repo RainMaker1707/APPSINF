@@ -4,30 +4,41 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../styles/login.css"/>
     <title>LogIn O-LLN</title>
+    <style>
+        body {
+            background-image: url('../images/lln_place_unif_noir.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <section class="logIn">
-        <h1>Log In</h1>
+        <div id="rectangle2"></div>
+        <div id="rectangle"></div>
+        <div id="rectangle3"></div>
         <form action="#" method="post">
             <label for="pseudo"></label>
             <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo">
             <label for="pwd"></label>
-            <input type="password" id="pwd" name="password" placeholder="Password">
-            <input type="submit" value="Log In">
+            <input type="password" id="pwd" name="password" placeholder="Mot de Passe">
+            <label for="Login"></label>
+            <input type="LogIn" id="Login" name="login" value="Se connecter">
         </form>
     </section>
     <section class="signIn">
-        <h1>Sign In</h1>
         <form action="#" method="post">
             <label for="mail"></label>
             <input type="email" id="mail" name="mail" placeholder="Email">
             <label for="pseudo_in"></label>
             <input type="text" id="pseudo_in" name="pseudo" placeholder="Pseudo">
             <label for="pwd_in"></label>
-            <input type="password" id="pwd_in" name="password_in" placeholder="password">
+            <input type="password" id="pwd_in" name="password_in" placeholder="Mot de Passe">
             <label for="pwd_in_conf"></label>
-            <input type="password" id="pwd_in_conf" name="password_in_conf" placeholder="Password confirmation">
-            <input type="submit" value="Sign In">
+            <input type="password" id="pwd_in_conf" name="password_in_conf" placeholder="Confirmation du Mot de Passe">
+            <label for="Sign-in"></label>
+            <input type="SignIn" id="Sign-in" name="sign-in" value="S'inscrire">
         </form>
     </section>
 </body>

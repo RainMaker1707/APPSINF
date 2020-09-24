@@ -26,8 +26,116 @@ input{
     padding: 14px 20px;
 }
 
+#button{
+    width:150px;
+    height:50px;
+    position: absolute;
+    top: 75vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+#rectangle{
+    z-index: -1;
+    width:750px;
+    height:500px;
+    background-color: #244478;
+    position: fixed;
+    border-radius: 15px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+#rectangle2{
+    z-index: -1;
+    width:800px;
+    height:550px;
+    background-color: #ffffff;
+    position: fixed;
+    border-radius: 15px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+#rectangle3{
+    z-index: -1;
+    width:750px;
+    height:25px;
+    background-color: #000000;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+
+/* text area report style */
+#pseudo{
+    width:250px;
+    height:50px;
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#pwd{
+    width:250px;
+    height:50px;
+    position: absolute;
+    top: 35vh;
+    left: 40vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#mail{
+    width:250px;
+    height:50px;
+    position: absolute;
+    top: 55vh;
+    left: 40vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#pseudo_in{
+    width:250px;
+    height:50px;
+    position: absolute;
+    top: 55vh;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#pwd_in{
+    width:250px;
+    height:50px;
+    position: absolute;
+    top: 65vh;
+    left: 40vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#pwd_in_conf{
+    width:250px;
+    height:50px;
+    position: absolute;
+    top: 65vh;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 input[type=text], select, input[type=email], input[type=password] {
-    width: 40%;
+    width: 40vw;
     display: block;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -36,16 +144,80 @@ input[type=text], select, input[type=email], input[type=password] {
 }
 
 /* Style the submit button */
-input[type=submit] {
-    width: 40%;
-    background-color: #4CAF50;
+input[type=button] {
+    background-color: #d61515;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width:150px;
+    height:50px;
+    position: absolute;
+    top: 75vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/* Add a background color to the submit button on mouse-over */
+input[type=button]:hover {
+    background-color: #700c0c;
 }
 
-/* Add a background color to the submit button on mouse-over */
-input[type=submit]:hover {
-    background-color: #45a049;
+
+/* Style the log in button */
+input[type=LogIn] {
+    background-color: #2432d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:150px;
+    height:25px;
+    position: absolute;
+    top: 30vh;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/* Add a background color to the login button on mouse-over */
+input[type=LogIn]:hover {
+    background-color: #081280;
+}
+
+
+/* Style the sign in button */
+input[type=SignIn] {
+    background-color: #2432d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:150px;
+    height:25px;
+    position: absolute;
+    top: 75vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/* Add a background color to the signin button on mouse-over */
+input[type=SignIn]:hover {
+    background-color: #081280;
+}
+
+
+/*Fonts*/
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
 }
