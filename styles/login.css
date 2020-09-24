@@ -63,11 +63,11 @@ input{
 
 #rectangle3{
     z-index: -1;
-    width:750px;
-    height:25px;
+    width:25px;
+    height:500px;
     background-color: #000000;
     position: fixed;
-    top: 45vh;
+    top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
 }
@@ -78,7 +78,7 @@ input{
     width:250px;
     height:50px;
     position: absolute;
-    top: 25vh;
+    top: 42vh;
     left: 40vw;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -88,7 +88,7 @@ input{
     width:250px;
     height:50px;
     position: absolute;
-    top: 35vh;
+    top: 52vh;
     left: 40vw;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -98,8 +98,8 @@ input{
     width:250px;
     height:50px;
     position: absolute;
-    top: 55vh;
-    left: 40vw;
+    top: 32vh;
+    left: 60vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -108,7 +108,7 @@ input{
     width:250px;
     height:50px;
     position: absolute;
-    top: 55vh;
+    top: 42vh;
     left: 60vw;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -118,8 +118,8 @@ input{
     width:250px;
     height:50px;
     position: absolute;
-    top: 65vh;
-    left: 40vw;
+    top: 52vh;
+    left: 60vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -128,7 +128,7 @@ input{
     width:250px;
     height:50px;
     position: absolute;
-    top: 65vh;
+    top: 62vh;
     left: 60vw;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -175,8 +175,8 @@ input[type=LogIn] {
     width:150px;
     height:25px;
     position: absolute;
-    top: 30vh;
-    left: 60vw;
+    top: 70vh;
+    left: 40vw;
     transform: translate(-50%, -50%);
     text-align: center;
 
@@ -197,8 +197,8 @@ input[type=SignIn] {
     width:150px;
     height:25px;
     position: absolute;
-    top: 75vh;
-    left: 50vw;
+    top: 70vh;
+    left: 60vw;
     transform: translate(-50%, -50%);
     text-align: center;
 
