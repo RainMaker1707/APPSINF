@@ -6,6 +6,12 @@ body{
     position: relative;
 }
 
+.menuFixed{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
 .datepad{
     margin-top: 2vh;
 }
@@ -30,14 +36,26 @@ menu li{
     top: 70vh;
 }
 
+#nav-col--{
+    align-items: end;
+}
+
+.nav-item{
+    text-align: center;
+}
 #main_title{
     color: #eeeee8;
 }
 
 #search{
+    background-color: #4D4D4D;
+    color: white;
     margin-top: .5vh;
     text-align: center;
-    width: 15vw;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
 }
 
 #hero_img{
@@ -68,15 +86,16 @@ table {
 
 tr td{
     color: #eeeee8;
-    text-align: left;
+    text-align: center;
     padding-left: 3vw;
-}
-
-table tbody tr:nth-child(odd){
-    background-color: #4D4D4D;
+    padding-right: 3vw;
 }
 
 table tbody tr:nth-child(even){
+    background-color: #4D4D4D;
+}
+
+table tbody tr:nth-child(odd){
     background-color: rgba(52, 83, 154, 0.68);
 }
 
