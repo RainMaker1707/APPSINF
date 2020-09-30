@@ -19,3 +19,10 @@ function keepMenuOnTop(){
         document.getElementById("date").className = "datepad2";
     }
 }
+
+function reposNavBar(){
+    let mainContainer = document.getElementById("main");
+    let heroImg = document.getElementById("hero_img");
+    let heroHeight = elementPosition(heroImg).height;
+    mainContainer.style.top = heroHeight + "px";
+}

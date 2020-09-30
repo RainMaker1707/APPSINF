@@ -24,7 +24,7 @@ menu li{
     top: 70vh;
 }
 
-.main_title{
+#main_title{
     color: #eeeee8;
 }
 
@@ -33,7 +33,7 @@ menu li{
     width: 15vw;
 }
 
-.hero_img{
+#hero_img{
     width: 100vw;
     position: fixed;
     top: 0;
