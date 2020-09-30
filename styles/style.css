@@ -24,10 +24,6 @@ menu{
     margin-top: 0;
 }
 
-.collapse.show menu:first-child, .collapsing menu:first-child{
-    padding-top: 30px;
-}
-
 menu li{
     padding-left: 1vw;
     margin-top: 5px;
@@ -47,7 +43,14 @@ menu li{
 .nav-item{
     text-align: center;
 }
+
+menu:last-child{
+    padding-right: 1vw;
+}
+
 #main_title{
+    font-family: Verdana, serif;
+    font-weight: bold;
     color: #eeeee8;
 }
 
@@ -73,8 +76,13 @@ menu li{
 }
 
 #date{
+    font-family: Verdana, serif;
+    font-weight: bold;
+    font-size: 1em;
     padding-top: 2vh;
-    padding-left: 5vw;
+    width: 100vw;
+    padding-right: 2vw;
+    text-align: end;
     color: white;
 }
 
@@ -114,6 +122,8 @@ thead{
 thead tr td{
     text-align: center;
     padding-bottom: 1vh;
+    font-family: Verdana, serif;
+    font-weight: bold;
 }
 
 footer{

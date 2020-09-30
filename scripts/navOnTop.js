@@ -26,7 +26,4 @@ function reposNavBar(){
     let heroImg = document.getElementById("hero_img");
     let heroSize = elementPosition(heroImg);
     mainContainer.style.top = heroSize.height + "px";
-
-    let searchBar = document.getElementById("search");
-
 }

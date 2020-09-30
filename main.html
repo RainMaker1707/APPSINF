@@ -36,14 +36,16 @@
             <div class="collapse navbar-collapse" id="nav-col--">
                 <menu class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <button class="btn btn-primary" type="button" onclick="location.href='pages/logIn.html';">Connexion</button>
+                        <button class="btn btn-primary btn-block" type="button" id="logButton" onclick="location.href='pages/logIn.html';">Connexion</button>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-primary" type="button" id="repButton" onclick="location.href='pages/report.html';">Déclarer un accident</button>
+                        <button class="btn btn-primary btn-block" type="button" id="repButton" onclick="location.href='pages/report.html';">Déclarer un accident</button>
                     </li>
                     <li class="nav-item">
-                        <label for="search" class="form-label offscreen">Search: </label>
-                        <input type="text" id="search" name="search" size="100" placeholder="Recherche"/>
+                        <form>
+                            <label for="search" class="form-label offscreen">Search: </label>
+                            <input class="" type="text" id="search" name="search" size="100" placeholder="Recherche"/>
+                        </form>
                     </li>
                 </menu>
             </div>
