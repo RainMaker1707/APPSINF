@@ -14,8 +14,14 @@ body{
     margin-top: 12vh;
 }
 
+menu{
+    margin-top: 0;
+}
+
 menu li{
     padding-left: 1vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .main{
@@ -29,6 +35,7 @@ menu li{
 }
 
 #search{
+    margin-top: .5vh;
     text-align: center;
     width: 15vw;
 }
@@ -57,7 +64,6 @@ table {
     width: 80vw;
     margin: 5vh 10vw 5vh 10vw;
     border-collapse: collapse;
-
 }
 
 tr td{
@@ -82,6 +88,11 @@ thead{
     border: none;
 }
 
+thead tr td{
+    text-align: center;
+    padding-bottom: 1vh;
+}
+
 footer{
     color: white;
     width: 100vw;
@@ -90,11 +101,4 @@ footer{
     text-align: center;
     margin: 0;
     padding-top: 1vh;
-}
-
-.toScroll{
-    width: 90vw;
-    margin:0;
-    padding:0;
-    height: 500vh;
 }
