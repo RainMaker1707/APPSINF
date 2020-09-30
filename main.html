@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" href="styles/style.css"/>
     <script type="text/javascript" src="scripts/navOnTop.js"></script>
-
     <title>Commune d'Ottignies Louvain-la-Neuve</title>
 </head>
 
@@ -24,9 +23,10 @@
     </section>
 
     <section class="container-fluid main" id="main">
-        <script> window.onresize = reposNavBar;</script>
+        <script> window.onload = reposNavBar; </script>
+        <script> window.onresize = reposNavBar; </script>
         <nav class="row order-2 navbar navbar-expand-lg navbar-dark bg-dark menu" id="menu">
-            <a class="col-7 navbar-brand" id="main_title" href="#">Ottignies - Louvain-la-Neuve</a>
+            <a class="navbar-brand mr-auto" id="main_title" href="#">Ottignies - Louvain-la-Neuve</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-col--"
                     aria-controls="nav-col--" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="nav-col--">
-                <menu class="col-5 navbar-nav mr-auto" >
+                <menu class="navbar-nav ml-auto" >
                     <li class="nav-item">
                         <button class="button" type="button" onclick="location.href='pages/logIn.html';">LogIn</button>
                     </li>
