@@ -24,7 +24,7 @@ menu{
     margin-top: 0;
 }
 
-.show menu:first-child, .collapsing menu:first-child{
+.collapse.show menu:first-child, .collapsing menu:first-child{
     padding-top: 30px;
 }
 
