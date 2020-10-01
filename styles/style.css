@@ -53,13 +53,23 @@ menu:last-child{
     font-weight: bold;
     color: #eeeee8;
 }
+@media (max-width: 992px){
+    #search{
+        width: 95vw;
+    }
+}
 
-#search{
+@media (min-width: 992px) {
+    #search{
+        width: 180px;
+    }
+}
+
+#search {
     background-color: #4D4D4D;
     color: white;
     margin-top: .5vh;
     text-align: center;
-    width: 180px;
     border-radius: 5px;
     border: none;
     font-size: 1.2em;
