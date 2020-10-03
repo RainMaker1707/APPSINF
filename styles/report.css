@@ -27,8 +27,8 @@ body{
 
 #rectangle{
     z-index: -1;
-    width:750px;
-    height:500px;
+    width:45vw;
+    height:60vh;
     background-color: #244478;
     position: fixed;
     border-radius: 15px;
@@ -39,11 +39,11 @@ body{
 
 #rectangle2{
     z-index: -1;
-    width:800px;
-    height:550px;
+    width:50vw;
+    height:65vh;
     background-color: #ffffff;
     position: fixed;
-    border-radius: 15px;
+    border-radius: 25px;
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
@@ -51,8 +51,8 @@ body{
 
 /* text area report style */
 #localization{
-    width:500px;
-    height:150px;
+    width:40vw;
+    height:15vh;
     position: absolute;
     top: 35vh;
     left: 50vw;
@@ -61,10 +61,18 @@ body{
 }
 
 #accident{
-    width:500px;
-    height:150px;
+    width:40vw;
+    height:15vh;
     position: absolute;
-    top: 60vh;
+    top: 55vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#addphoto{
+    position: absolute;
+    top: 68vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -89,7 +97,7 @@ input[type=button] {
     width:150px;
     height:50px;
     position: absolute;
-    top: 75vh;
+    top: 76vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     text-align: center;

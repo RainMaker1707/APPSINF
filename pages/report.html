@@ -10,6 +10,8 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+            width: auto;
+            height: auto;
         }
     </style>
 </head>
@@ -24,6 +26,8 @@
         <label for="accident"></label>
         <input type="text" id="accident" name="Accident" placeholder="Détails de l'accident">
         <input type="button" onclick="location.href='../main.html';" value="Soumettre">
+        <label for="addphoto"></label>
+        <input type="file" id="addphoto" accept="image/*" onchange="picChange(event)"/>>
     </form>
 </section>
 </body>
