@@ -94,8 +94,8 @@ input[type=button] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width:150px;
-    height:50px;
+    width:15vw;
+    height:5vh;
     position: absolute;
     top: 76vh;
     left: 50vw;
