@@ -10,6 +10,10 @@ function elementPosition(a) {
     }
 }
 
+function foo(){
+    document.getElementsByClassName("reports").item()
+}
+
 function keepMenuOnTop(){
     let posMenu = elementPosition(document.getElementById("menu"));
     if  (document.getElementById("date").getBoundingClientRect().y > posMenu.height + .001) {
