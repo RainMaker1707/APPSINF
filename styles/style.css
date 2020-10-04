@@ -1,5 +1,7 @@
 body{
     background-color: #4D4D4D;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .menu{
@@ -37,7 +39,7 @@ menu li{
 }
 
 #nav-col--{
-    align-items: end;
+    align-items: center;
 }
 
 .nav-item{
