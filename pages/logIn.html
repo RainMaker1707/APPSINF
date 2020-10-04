@@ -16,28 +16,31 @@
 <div class="row justify-content-center align-items-center">
     <div class="row justify-content-center align-items-center" id="rectangle">
         <div class="row justify-content-center align-items-center" id="rectangle2">
-            <form class="row justify-content-center align-items-center" action="#" method="post" id="login">
-                <label for="pseudo"></label>
-                <input type="text" id="pseudo" name="Pseudo" placeholder="Pseudo"/>
-                <label for="pwd"></label>
-                <input type="text" id="pwd" name="Password" placeholder="Mot de passe"/>
-                <button class="myBtn btn btn-danger btn-lg">Se connecter</button>
-            </form>
-            <div class="row justify-content-center align-items-center" style="width: 100%">
-                <a href="#" id="fgPwd"> Mot de passe oublié</a>
+            <div class="row justify-content-center align-items-center" id="inner">
+
+                <form class="text-center" action="#" method="post" id="login">
+                    <label for="pseudo"></label>
+                    <input type="text" id="pseudo" name="Pseudo" placeholder="Pseudo"/>
+                    <label for="pwd"></label>
+                    <input type="password" id="pwd" name="Password" placeholder="Mot de passe"/>
+                    <button class="myBtn btn btn-primary btn-lg">Se connecter</button>
+                    <button id="fgPwd"> Mot de passe oublié</button>
+                </form>
+
+                <div id="rectangle3"></div>
+
+                <form class="text-center" action="#" method="post" id="signIn">
+                    <label for="mail"></label>
+                    <input type="email" id="mail" name="Mail" placeholder="Pseudo"/>
+                    <label for="pseudo_in"></label>
+                    <input type="text" id="pseudo_in" name="Pseudo" placeholder="Mot de passe"/>
+                    <label for="pwd_in"></label>
+                    <input type="text" id="pwd_in" name="Pseudo" placeholder="Pseudo"/>
+                    <label for="pwd_in_conf"></label>
+                    <input type="text" id="pwd_in_conf" name="Pseudo" placeholder="Pseudo"/>
+                    <button class="myBtn btn btn-primary btn-lg">S'inscrire</button>
+                </form>
             </div>
-            <div class="row" id="rectangle3"> </div>
-            <form class="row justify-content-center align-items-center" action="#" method="post" id="login2">
-                <label for="mail"></label>
-                <input type="text" id="mail" name="Mail" placeholder="Pseudo"/>
-                <label for="pseudo_in"></label>
-                <input type="text" id="pseudo_in" name="Pseudo" placeholder="Mot de passe"/>
-                <label for="pwd_in"></label>
-                <input type="text" id="pwd_in" name="Pseudo" placeholder="Pseudo"/>
-                <label for="pwd_in_conf"></label>
-                <input type="text" id="pwd_in_conf" name="Pseudo" placeholder="Pseudo"/>
-                <button class="myBtn btn btn-danger btn-lg">S'inscrire</button>
-            </form>
         </div>
     </div>
 </div>

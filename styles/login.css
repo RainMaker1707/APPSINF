@@ -13,34 +13,19 @@ body {
     background-attachment: fixed;
 }
 
-
-
-/* form log in sign in */
 form{
-    margin-left: 35vw;
+    width:100%;
 }
 
-form label{
-    display: none;
-    height: 0;
-    width: 0;
-    font-size: 0;
-}
-
-input{
+input[type=text], input[type=email], input[type=password]{
+    min-width: 85%;
+    min-height: 15%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
     text-align: center;
-    padding: 14px 20px;
-}
-
-#button{
-    width:150px;
-    height:50px;
-    position: absolute;
-    top: 75vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
+    background-color: floralwhite;
+    margin-bottom: 2%;
 }
 
 #rectangle{
@@ -66,118 +51,39 @@ input{
     background-color: black;
 }
 
-
-/* text area report style */
-#pseudo{
-    min-height: 50px;
-    height: 5vh;
+#inner{
+    width: 100%;
+    height: 100%;
 }
 
-#pwd{
-    min-height: 50px;
-    height: 5vh;
-}
-
-#mail{
-    min-height: 50px;
-    height: 5vh;
-}
-
-#pseudo_in{
-    min-height: 50px;
-    height: 5vh;
-}
-
-#pwd_in{
-    min-height: 50px;
-    height: 5vh;
-}
-
-#pwd_in_conf{
-    min-height: 50px;
-    height: 5vh;
-}
-
-input[type=text], select, input[type=email], input[type=password] {
-    min-width: 90%;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 1vh;
-}
-
-/* Style the submit button */
-.button1 {
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width:15vw;
-    height:5vh;
-    position: absolute;
-    top: 75vh;
-    left: 38vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-
-}
-
-.button2 {
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width:15vw;
-    height:5vh;
-    position: absolute;
-    top: 75vh;
-    left: 62vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-}
-
-/* Add a background color to the submit button on mouse-over */
-.button1:hover {
-    background-color: darkblue;
-}
-
-/* Add a background color to the submit button on mouse-over */
-.button2:hover {
-    background-color: darkblue;
-}
-
-
-/*Fonts*/
-.serif {
-    font-family: "Times New Roman", Times, serif;
-}
-
-.sansserif {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-    font-family: "Lucida Console", Courier, monospace;
-}
-
-#fou {
-    background-color: deeppink;
-}
-
-#fou2 {
-    background-color: aqua;
-}
-
+/*
+    Button forgot password style because we wanted
+    to do a complete button style our self
+ */
 @media(max-width: 617px){
     #fgPwd{
         font-size: .5rem;
         margin-left: 30%;
         margin-right: 30%;
+    }
+
+    #rectangle{
+        min-height: 720px;
+    }
+    #rectangle2{
+        min-height: 700px;
+    }
+    input[type=text], input[type=email], input[type=password]{
+        margin-bottom: 5%;
+    }
+
+    @media(max-height: 750px){
+        #rectangle{
+            min-height: 550px;
+        }
+        #rectangle2{
+            min-height: 530px;
+        }
     }
 }
 
@@ -187,28 +93,49 @@ input[type=text], select, input[type=email], input[type=password] {
         margin-left: 38%;
         margin-right: 38%;
     }
+    @media(max-height: 580px) {
+        #rectangle3{
+            display: none;
+        }
+        #inner{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+        }
+        #fgPwd{
+            min-width: 150px;
+            margin: 0;
+        }
+        #login{
+            margin-top: 10%;
+        }
+        #login, #signIn{
+            width: 40%;
+            height: 100%;
+        }
+    }
+    @media(max-height: 300px){
+        #login{
+            margin-top: 5%;
+        }
+    }
 }
 
 @media(min-width: 912px){
     #fgPwd{
         font-size: 1rem;
-        margin-left: 38%;
-        margin-right: 38%;
     }
 }
 
 #fgPwd {
+    margin-top: 5%;
     border: 1px solid white;
     background-color: #5a5e60;
     border-radius: 7px;
     padding: 1% 5px 1% 5px;
     text-align: center;
     color: whitesmoke;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
 }
 
 #fgPwd:hover {
@@ -219,20 +146,4 @@ input[type=text], select, input[type=email], input[type=password] {
 #fgPwd:active {
     border: 1px solid white;
     background-color: rgba(102,156,238,0.82);
-}
-
-#login {
-    padding-top: 3%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-#login input{
-    margin-bottom: 4%;
-}
-
-#login , #login2 {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
 }
