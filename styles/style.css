@@ -145,3 +145,7 @@ footer{
     margin: 0;
     padding-top: 1vh;
 }
+
+.toScroll{
+    height: 100vh;
+}

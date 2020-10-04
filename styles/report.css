@@ -2,123 +2,102 @@ h1{
     color: white;
     text-align: center;
     width: 100vw;
-    z-index: 100;
+    font-family: Verdana, sans-serif;
+    padding-top: 2vh;
 }
 
-.centre{
-    text-align: center;
-}
-
-body{
-    background-color: #4D4D4D;
+body {
     margin: 0;
-}
-
-#button{
-    width:150px;
-    height:50px;
-    position: absolute;
-    top: 75vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
+    padding: 0;
+    background-color: #4D4D4D;
+    background-size: cover;
+    background-image: url(../images/lln_place_unif_noir.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #rectangle{
-    z-index: -1;
-    width:45vw;
-    height:60vh;
-    background-color: #244478;
-    position: fixed;
-    border-radius: 15px;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+    margin-top: 5vh;
+    width: 80vw;
+    height: 80vh;
+    max-width: 800px;
+    min-width: 300px;
+    background-color: whitesmoke;
+    border-radius: 25px;
 }
 
 #rectangle2{
-    z-index: -1;
-    width:50vw;
-    height:65vh;
-    background-color: #ffffff;
-    position: fixed;
-    border-radius: 25px;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-}
-
-/* text area report style */
-#localization{
-    width:40vw;
-    height:15vh;
-    position: absolute;
-    top: 35vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    width: 95%;
+    height: 95%;
+    background-color: #244478;
+    border-radius: 15px;
 }
 
 #accident{
-    width:40vw;
-    height:15vh;
-    position: absolute;
-    top: 55vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    min-height: 300px;
+    height: 40vh;
 }
 
-#addphoto{
-    position: absolute;
-    top: 68vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
+#localization{
+    min-height: 50px;
+    height: 5vh;
 }
 
-input[type=text], select, input[type=email], input[type=password] {
-    width: 40vw;
-    display: block;
+
+input[type=text]{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    display: flex;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
-    margin-bottom: 1vh;
+    text-align: center;
+    background-color: floralwhite;
 }
 
 /* Style the submit button */
-input[type=button] {
-    background-color: #d61515;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width:15vw;
-    height:5vh;
-    position: absolute;
-    top: 76vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+.myBtn{
+    width: 100%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    border-radius: 10px;
+}
+
+@media(min-width: 550px){
+    input[type=file]{
+        display: flex;
+    }
+
+    h1{
+        font-size: small;
+    }
+
+    .myBtn, input[type=file]{
+        margin-top: 2%;
+    }
+}
+
+@media(max-width: 541px){
+    h1{
+        font-size: small;
+    }
+
+    .myBtn, input[type=file]{
+        margin-top: 5%;
+    }
+}
+
+input[type=file]{
     text-align: center;
-
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-/* Add a background color to the submit button on mouse-over */
-input[type=button]:hover {
-    background-color: #700c0c;
-}
-
-
-/*Fonts*/
-.serif {
-    font-family: "Times New Roman", Times, serif;
-}
-
-.sansserif {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-    font-family: "Lucida Console", Courier, monospace;
-}
+/*.imgInput{
+    padding-top: 5px;
+    background-color: greenyellow;
+}*/

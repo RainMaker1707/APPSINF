@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../styles/report.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Report O-LLN</title>
-    <style>
-        body {
-            background-image: url('../images/lln_place_unif_noir.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            width: auto;
-            height: auto;
-        }
-    </style>
 </head>
-<body>
-<section class="Report">
-    <h1 style="font-family:verdana;">Soumettre un accident</h1>
-    <div id="rectangle2"></div>
-    <div id="rectangle"></div>
-    <form action="#" method="post">
-        <label for="localization"></label>
-        <input type="text" id="localization" name="Localization" placeholder="Localisation">
-        <label for="accident"></label>
-        <input type="text" id="accident" name="Accident" placeholder="Détails de l'accident">
-        <input type="button" onclick="location.href='../main.html';" value="Soumettre">
-        <label for="addphoto"></label>
-        <input type="file" id="addphoto" accept="image/*" onchange="picChange(event)"/>>
-    </form>
-</section>
+<body class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+        <h1>Soumettre un accident</h1>
+        <div class="row justify-content-center align-items-center" id="rectangle">
+            <div class="row justify-content-center align-items-center" id="rectangle2">
+                <form class="row justify-content-center align-items-center" action="#" method="post">
+                    <label for="accident"></label>
+                    <input type="text" id="accident" name="Accident" placeholder="Details de l'accident"/>
+                    <label for="localization"></label>
+                    <input type="text" id="localization" name="Localization" placeholder="Localisation"/>
+                    <input  class="imgInput" type="file" accept="image/*"/>
+                    <button class="myBtn btn btn-danger btn-lg" onclick="location.href = 'logIn.html';">Soumettre</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
