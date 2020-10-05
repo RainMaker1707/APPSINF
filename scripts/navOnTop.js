@@ -16,7 +16,7 @@ function foo(){
 
 function keepMenuOnTop(){
     let posMenu = elementPosition(document.getElementById("menu"));
-    if  (document.getElementById("date").getBoundingClientRect().y > posMenu.height + .001) {
+    if  (posMenu.viewportY < elementPosition(document.getElementById("main")).viewportY) {
         document.getElementById("menu").className = "row order-2 navbar navbar-expand-lg navbar-dark bg-dark menu";
         document.getElementById("date").className = "datepad";
     }else if (posMenu.viewportY <= 0) {
