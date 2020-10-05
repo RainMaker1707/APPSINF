@@ -1,13 +1,30 @@
+#reports{
+    height: 100%;
+    padding-top: 50px;
+}
+
 .report-container{
     display: flex;
     width: 80%;
-    height: 30%;
-    background-color: #4D4D4D;
+    height: 30vh;
+    margin-bottom: 50px;
+    background-color: rgba(200, 37, 36, 0.2);
+    border: 3px solid #244478;
+    border-radius: 30px;
 }
 
 .image{
-    width:30vw;
+    width: 30%;
     height: auto;
+    margin-left: 2%;
+    margin-right: 3%;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.container-right{
+    width: 50%;
+    list-style: none;
 }
 
 .description{

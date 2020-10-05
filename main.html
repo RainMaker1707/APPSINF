@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/file.css"/>
     <script type="text/javascript" src="scripts/navOnTop.js"></script>
+    <script type="text/javascript" src="components/reportComp.js"></script>
+
     <title>Commune d'Ottignies Louvain-la-Neuve</title>
 </head>
 
@@ -63,17 +66,18 @@
             </script>
         </section>
 
-        <section class="row" id="reports">
+        <section class="row justify-content-center align-items-center" id="reports">
             <!-- add component "reportFile" here with js scripts -->
-
         </section>
-
-        <section style="height: 150vh;"></section>
+        <script>
+                for(let i=0; i<5; i++){
+                    makeFile("Component : " + i);
+                }
+        </script>
 
         <footer class="row">
             <p class="col-12">UCLouvain LINFO1212 Groupe Q</p>
         </footer>
-
     </section>
 </body>
 
