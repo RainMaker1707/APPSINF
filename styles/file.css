@@ -1,15 +1,23 @@
-#image{
+.report-container{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    background-color: #4D4D4D;
+}
+
+.image{
+    width:30vw;
+    height: auto;
+}
+
+.description{
 
 }
 
-#description{
+.localisation{
 
 }
 
-#localisation{
-
-}
-
-#author{
+.author{
 
 }
