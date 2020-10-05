@@ -10,18 +10,16 @@ function elementPosition(a) {
     }
 }
 
-function foo(){
-    document.getElementsByClassName("reports").item()
-}
-
 function keepMenuOnTop(){
     let posMenu = elementPosition(document.getElementById("menu"));
+    let menu = document.getElementById("menu");
+    let date = document.getElementById("date");
     if  (posMenu.viewportY < elementPosition(document.getElementById("main")).viewportY) {
-        document.getElementById("menu").className = "row order-2 navbar navbar-expand-lg navbar-dark bg-dark menu";
-        document.getElementById("date").className = "datepad";
+        menu.className = "row order-2 navbar navbar-expand-lg navbar-dark bg-dark menu";
+        date.className = "datepad";
     }else if (posMenu.viewportY <= 0) {
-        document.getElementById("menu").className = "row order-2 navbar navbar-expand-lg navbar-dark bg-dark menuFixed";
-        document.getElementById("date").className = "datepad2";
+        menu.className = "row order-2 navbar navbar-expand-lg navbar-dark bg-dark menuFixed";
+        date.className = "datepad2";
     }
 }
 
