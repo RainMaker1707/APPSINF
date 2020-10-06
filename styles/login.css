@@ -89,9 +89,9 @@ input[type=text], input[type=email], input[type=password]{
 
 @media(min-width: 618px){
     #fgPwd{
-        font-size: .7rem;
-        margin-left: 38%;
-        margin-right: 38%;
+        font-size: .5rem;
+        margin-left: 35%;
+        margin-right: 35%;
     }
     @media(max-height: 580px) {
         #rectangle3{
@@ -122,6 +122,14 @@ input[type=text], input[type=email], input[type=password]{
     }
 }
 
+@media(min-width: 653px){
+    #fgPwd{
+        font-size: .7rem;
+        margin-left: 38%;
+        margin-right: 38%;
+    }
+}
+
 @media(min-width: 912px){
     #fgPwd{
         font-size: 1rem;
@@ -149,7 +157,6 @@ input[type=text], input[type=email], input[type=password]{
 }
 
 /* Only for iphone 5/SE responsive rotated*/
-
 @media(width: 568px)and (height: 320px){
     #rectangle{
         min-height: 300px;
