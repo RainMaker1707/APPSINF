@@ -68,11 +68,28 @@
 
         <section class="row justify-content-center align-items-center" id="reports">
             <!-- add component "reportFile" here with js scripts -->
+            <div class="report-container" id="toDelete">
+                <div class="container-left">
+                    <img class="image" src="images/lln_esplanade.jpg" alt="Report Image">
+                    <p class="date">20-09-2020</p>
+                    <p class="localisation>">Ottignies, Chaussée intel 108</p>
+                </div>
+                <div class="container-right">
+                    <p class="author">Hadrien Allegaert</p>
+                    <p class="description">
+                        Description: <br/>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum."
+                    </p>
+                </div>
+            </div>
         </section>
         <script>
-                for(let i=0; i<5; i++){
-                    makeFile("Component : " + i);
-                }
+            for(let i= 0; i<5; i++) makeFile("Component : " + i);
         </script>
 
         <footer class="row">

@@ -74,7 +74,7 @@ menu:last-child{
 
 @media (max-width: 992px){
     #search{
-        width: 95vw;
+        width: 100%;
     }
 }
 
