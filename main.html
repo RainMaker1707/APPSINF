@@ -67,7 +67,9 @@
         </section>
 
         <section class="row justify-content-center align-items-center" id="reports">
-            <!-- add component "reportFile" here with js scripts -->
+            <!-- add component "reportFile" here with js scripts
+                Here is the component structure loaded in components/reportComp.js
+
             <div class="report-container" id="toDelete">
                 <div class="container-left">
                     <img class="image" src="images/lln_esplanade.jpg" alt="Report Image">
@@ -87,9 +89,25 @@
                     </p>
                 </div>
             </div>
+            -->
         </section>
         <script>
-            for(let i= 0; i<5; i++) makeFile("Component : " + i);
+            let desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" +
+                "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud" +
+                "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure" +
+                "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." +
+                "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit\n" +
+                "anim id est laborum.";
+            makeFile("Hadrien Allegaert", desc, "images/ottignies_gare_explicit.jpg",
+                "Ottignies, Gare", "03-10-2020");
+            makeFile("Jerome Lechat", desc, "images/lln_esplanade.jpg",
+                "Louvain-la-Neuve, Esplanade", "28-09-2020");
+            makeFile("Cezary Swierzewski", desc, "images/ottignies_resto_coupdcoeur.jpg",
+                "Ottignies, Espace du Coeur de Ville 5", "21-09-2020");
+            makeFile("Nicolas Beuel", desc, "images/lln_street_1.jpg",
+                "Louvain-la-Neuve, Rue Charlemagne", "20-09-2020");
+            makeFile("Jean Fafchamps", desc, "images/lln_fontaine_soir.jpg",
+                "louvain-la-Neuve, Place de l'université", "17-09-2020");
         </script>
 
         <footer class="row">
