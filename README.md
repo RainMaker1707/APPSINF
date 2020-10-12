@@ -35,3 +35,10 @@ d'un script Js se trouvant dans *"./components/reportComp.js"*
 Ce composant possède son propre fichier css: *"./styles/file.css"*
 
 Les autres pages html se trouves dans le dossier *"./pages/"*
+
+#### Lancement du serveur
+se placer dans le dossier app dans un terminal grâce à la commande cd:
+    `cd 'DirWhereYouStoredIt'/appsinf/app`
+    
+ensuite exécuter le serveur avec la commande:
+    `node serverExpress.js`
